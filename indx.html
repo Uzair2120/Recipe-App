@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: liner;
+        }
+
+        h3{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Recipe App</h1>
+
+        <div class="name">Made by <span>M.Uzair Arshad</span></div>
+        <div class="search-form-container">
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Search for recipes..."
+          />
+          <button id="searchBtn">Search</button>
+        </div>
+      </header>
+      <main id="main-section">
+        <section id="recipeResults">
+          <h2 class="search-results-heading">Search Results</h2>
+          <div class="list-container">
+            <ul id="recipe-list"></ul>
+          </div>
+        </section>
+        <section id="recipeDetails">
+          <h2>Recipe Details</h2>
+          <!-- <div id="recipeDetailsContainer"> -->
+            <h2 id="for-name"></h2>
+            <h3 id="for-ingri"></h3>
+            <ul id="ingri-div"></ul>
+            <h3 id="for-serv" style="color: black;"></h3>
+            <ul id="serv"></ul>
+            <h3 id="for-instruc"></h3>
+            <p id="for-details"></p>          
+          </div>
+        </section>
+      </main>
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>
